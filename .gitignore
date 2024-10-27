@@ -1,0 +1,20 @@
+# Dependency directories
+node_modules/
+
+# Cache directories and files
+.parcel-cache/
+dist/
+.cache/
+*.log
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
