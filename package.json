@@ -12,16 +12,20 @@
     "react-dom": "^16.14.0"
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.26.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
     "babel-preset-nano-react-app": "^0.1.0",
     "parcel": "^2.0.0-alpha.3.2",
-    "process": "^0.11.10"
+    "process": "^0.11.10",
+    "typescript": "^5.6.3"
   },
   "babel": {
     "presets": [
-      "nano-react-app"
+      "nano-react-app",
+      "@babel/preset-typescript"
     ]
   },
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arthurgr/reusable-react-custom-icon-component.git"
